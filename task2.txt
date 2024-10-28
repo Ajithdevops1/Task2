@@ -1,0 +1,9 @@
+vagrant@ubuntu-bionic:~$ ls /home
+ubuntu  vagrant
+vagrant@ubuntu-bionic:~$ touch /home/demo.txt
+vagrant@ubuntu-bionic:~$ ls /home
+demo.txt  ubuntu  vagrant
+vagrant@ubuntu-bionic:~$ chmod 764 /home/demo.txt
+vagrant@ubuntu-bionic:~$ ls -l /home/demo.txt
+-rwxrw-r-- 1 vagrant vagrant 0 Oct 28 07:14 /home/demo.txt
+vagrant@ubuntu-bionic:~$
